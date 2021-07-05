@@ -1,0 +1,8 @@
+[Unit]
+Description=Use dedicated graphics card
+
+[Service]
+ExecStart=optimus-manager --switch nvidia --no-confirm
+
+[Install]
+WantedBy=default.target
